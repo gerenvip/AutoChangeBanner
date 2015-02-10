@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/new_recommend"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+        >
+
+    <com.gerenvip.banner.ui.HorizontalViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+    <LinearLayout
+            android:id="@+id/ll_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingLeft="26dip"
+            />
+</FrameLayout>
+
